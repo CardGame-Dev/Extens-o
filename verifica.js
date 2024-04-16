@@ -4,7 +4,7 @@ function verificarHorario() {
   
     // Definir o horário desejado para executar a ação (por exemplo, 10 horas da manhã)
     var horarioDesejado = new Date();
-    horarioDesejado.setHours(14, 15, 0); // Define as horas para 10:00:00
+    horarioDesejado.setHours(14, 0, 0); // Define as horas para 10:00:00
   
     // Verifica se o horário atual é igual ao horário desejado
     if (agora.getHours() === horarioDesejado.getHours() &&
